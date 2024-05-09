@@ -50,7 +50,7 @@ const Groups = ({
 						e.stopPropagation();
 						setIsModalOpen(true);
 					}}
-					className="w-16 h-16 rounded-full text-white bg-blue-700 text-xl fixed top-[32rem] right-8 sm:left-[24rem] sm:top-[50rem]">
+					className="w-16 h-16 rounded-full text-white bg-blue-700 text-xl fixed top-[30rem] right-8 sm:left-[17%] sm:top-[70%]">
 					<i className="fa-solid fa-plus"></i>
 				</button>
 
