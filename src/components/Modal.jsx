@@ -18,6 +18,8 @@ const Modal = ({ isModalOpen, setIsModalOpen, setGroups }) => {
 	useEffect(() => {
 		const handleOutsideClick = (event) => {
 			if (modalRef.current && !modalRef.current.contains(event.target)) {
+				setName("");
+				setSelectedColor(null);
 				setIsModalOpen(false);
 			}
 		};

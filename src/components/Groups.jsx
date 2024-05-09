@@ -34,7 +34,7 @@ const Groups = ({
 											obj === selectedGroup ? "#D3D3D3" : ""
 										}`,
 									}}
-									className="my-[1rem] rounded-md h-14 content-center p-2 text-lg flex gap-2 cursor-pointer">
+									className="my-[1rem] rounded-md h-14 justify-start p-2 text-lg flex gap-2 cursor-pointer">
 									<div
 										style={{ backgroundColor: color }}
 										className="rounded-full text-white w-10 h-10 content-center text-center">
