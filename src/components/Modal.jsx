@@ -37,12 +37,6 @@ const Modal = ({ isModalOpen, setIsModalOpen, setGroups }) => {
 		setSelectedColor(color);
 	}
 
-	function handleClose() {
-		setSelectedColor(null);
-		setName("");
-		setIsModalOpen(false);
-	}
-
 	function handleCreate() {
 		if (name === "" || selectedColor === null) return;
 		const newObj = { name: name, color: selectedColor, notes: [] };
@@ -96,11 +90,6 @@ const Modal = ({ isModalOpen, setIsModalOpen, setGroups }) => {
 					</div>
 				</div>
 				<div className="flex justify-end gap-4 mt-2  border-black">
-					<button
-						onClick={handleClose}
-						className="mt-4 bg-red-500 text-white px-4 py-2 rounded ">
-						Close
-					</button>
 					<button
 						onClick={handleCreate}
 						className="mt-4 bg-blue-500 text-white px-4 py-2 rounded">
